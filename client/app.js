@@ -85,14 +85,14 @@ App = {
 
 
           <div class="card-body">
-              <span class="text_card">Proceso:  ${_amount}</span><br>
-              <span class="text_card">Codigo: ${_code}</span><br>
-              <span class="text_card">Lote: ${_size}</span><br>
-              <span class="text_card">Ubicacion: ${_color}</span><br>
-              <span class="text_card">Descripcion: ${_description}</span>
+              <span class="text_card">Cantidad:  ${_amount}</span><br>
+              <span class="text_card">Código: ${_code}</span><br>
+              <span class="text_card">Talla: ${_size}</span><br>
+              <span class="text_card">Color: ${_color}</span><br>
+              <span class="text_card">Descripción: ${_description}</span>
               </div>
               <div class="card-footer text-muted">
-              <p class"text-secondary">Product was created ${new Date(_createdAt * 1000).toLocaleString()}</p>
+              <p class"text-secondary">El producto fue agregado al inventario ${new Date(_createdAt * 1000).toLocaleString()}</p>
               </div>
               </div>
 
